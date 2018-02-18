@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZSignup EXtended</string>
+    <string name="spinner">Gender</string>
+
+</resources>
+<!--
+<string name="selected">Select a City</string>
+
+//in signup.xml
+android:prompt="@string/selected"
+
+
+-->

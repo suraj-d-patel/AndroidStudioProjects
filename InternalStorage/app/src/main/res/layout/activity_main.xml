@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl1"
+    tools:context=".MainActivity" >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/relativeLayout">
+
+
+       <EditText
+           android:id="@+id/editText1"
+           android:layout_width="230dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentTop="true"
+           android:layout_marginRight="20dp"
+           android:layout_marginTop="24dp"
+           android:ems="10" >
+
+           <requestFocus />
+       </EditText>
+
+       <EditText
+           android:id="@+id/editText2"
+           android:layout_width="230dp"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/editText1"
+           android:layout_below="@+id/editText1"
+           android:layout_marginTop="24dp"
+           android:ems="10" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/editText1"
+           android:layout_alignBottom="@+id/editText1"
+           android:textSize="22dp"
+           android:layout_alignParentLeft="true"
+           android:text="File Name:" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="22dp"
+           android:layout_alignBaseline="@+id/editText2"
+           android:layout_alignBottom="@+id/editText2"
+           android:layout_alignParentLeft="true"
+           android:text="Data:" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/editText2"
+           android:layout_alignStart="@+id/editText2"
+           android:layout_below="@+id/editText2"
+           android:layout_marginLeft="32dp"
+           android:layout_marginStart="32dp"
+           android:layout_marginTop="18dp"
+           android:text="save" />
+
+       <Button
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignBaseline="@+id/button1"
+           android:layout_alignBottom="@+id/button1"
+           android:layout_toRightOf="@+id/button1"
+           android:text="read" />
+
+   </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/customtext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:text="Your text: \n " />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

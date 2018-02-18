@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+
+
+                >
+
+                <EditText
+                    android:id="@+id/editemail"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_profile"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:focusable="true"
+
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#80FFFFFF" />
+
+                <EditText
+                    android:id="@+id/editpass"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:drawableLeft="@drawable/ic_lock"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="@string/editpass"
+                    android:inputType="textPassword"
+                    android:textColorHint="#80FFFFFF" />
+
+                <EditText
+                    android:id="@+id/editreff"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_profile"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:hint="@string/editreff"
+                    android:inputType="textPhonetic"
+                    android:textColorHint="#80FFFFFF" />
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:id="@+id/checkboxagree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="2dp"
+                    android:text="@string/agree"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:id="@+id/txtterm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1sp"
+                    android:text="@string/terms"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="16sp" /></LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btnsignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="15dp"
+                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:text="SIGNUP"
+                    android:textColor="@android:color/white"
+                    android:textSize="19sp" />
+
+                <LinearLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center_horizontal"
+                            >
+                            <TextView
+                                android:id="@+id/txtreg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="45sp"
+                                android:layout_marginTop="15sp"
+                                android:text="@string/alreadyreg"
+                                android:textColor="@android:color/white"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/txtlogin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginRight="25dp"
+                                android:layout_marginTop="15dp"
+                                android:text="@string/signup"
+                                android:textColor="@android:color/holo_green_dark"
+                                android:textSize="18sp" /></LinearLayout>
+
+
+            </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006699"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.vamediabox.suraj.signup.MainActivity">
+
+    <!-- #006699  -->
+    <TextView
+        android:id="@+id/signuptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnsubmit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="Signup!!"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="37dp" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/signuptext"
+        android:layout_marginTop="15sp"
+        android:ems="10"
+        android:hint="Enter Full Name"
+        android:inputType="textPersonName"
+        android:text="Suraj D. Patel"
+       android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/fullname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter Email ID"
+        android:inputType="textEmailAddress"
+        android:text="newoneabc@abc.com"
+       android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/editemail"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter Phone No."
+        android:inputType="phone"
+        android:text="9876543211"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter your Address"
+        android:inputType="textPostalAddress"
+        android:text="A-3/4,2nd Floor,Citizen Sanjeev Tower, Janakpuri, (Nearest Metro Station - Uttam Nagar East) , New Delhi 110058, India"
+       android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@id/cnfpassword"
+        android:layout_alignStart="@+id/address"
+        android:layout_below="@+id/address"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:text="hellopassword"
+       android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/cnfpassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btnsubmit"
+        android:layout_alignStart="@+id/editpass"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="Confirm your Password"
+        android:inputType="textPassword"
+        android:text="hellopassword"
+       android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+
+   
+    
+    
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <Spinner
+
+            android:id="@+id/spinner"
+            android:layout_width="185dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/btnsubmit"
+            android:layout_alignStart="@+id/cnfpassword"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="12dp"
+            android:prompt="@string/spinner"
+             />
+
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/cnfpassword"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+   
+
+</LinearLayout>

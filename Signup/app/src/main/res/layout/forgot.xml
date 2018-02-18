@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#006699"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_marginTop="95dp"
+        android:text="Enter your EMail ID"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_below="@+id/txtemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Enter Email ID"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#80FFFFFF"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="280dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/btnsubmit"
+        android:layout_marginTop="27dp"
+        android:text=""
+        android:textColor="#008000"
+        android:textSize="18sp" />
+</RelativeLayout>

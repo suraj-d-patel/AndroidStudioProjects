@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suraj.practice1.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly1"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="30dp"
+            android:id="@+id/textView1"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly2"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Browser"
+            android:id="@+id/button1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly3"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Browser with LAUNCH" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly4"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exceptional Condition"
+            android:id="@+id/button3"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp" >
+
+
+    <ImageButton
+        android:id="@+id/imagebutton"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images" />
+
+</LinearLayout>
+
+</LinearLayout>

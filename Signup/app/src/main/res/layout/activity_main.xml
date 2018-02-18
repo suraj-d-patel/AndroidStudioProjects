@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006699"
+    android:visibility="visible"
+    tools:context="com.vamediabox.suraj.signup.MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="   Login!!   "
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="42dp" />
+
+    <TextView
+        android:id="@+id/txtsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/editpass"
+        android:layout_below="@+id/btnsubmit"
+        android:layout_marginTop="21dp"
+        android:text="Create One"
+        android:textColor="#FFFF00"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/editemail"
+        android:layout_below="@+id/editemail"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:text="hello"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Submit" />
+
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter Email or Phone No."
+        android:inputType="textEmailAddress"
+        android:text="abc@abc.com"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtsignup"
+        android:layout_alignBottom="@+id/txtsignup"
+        android:layout_alignStart="@+id/editpass"
+        android:text="Forgot the Password??"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="editemail">Enter Mobile No. or email ID</string>
+    <string name="editpass">Enter Password</string>
+    <string name="app_name">ZLayoutPractice RELATIVE</string>
+    <string name="editreff">Referral ID(Optional)</string>
+    <string name="agree">I Agree to GreenPay\'s</string>
+    <string name="terms">Terms of Use</string>
+    <string name="alreadyreg">Already Registered??</string>
+    <string name="signup">Login</string>
+
+</resources>

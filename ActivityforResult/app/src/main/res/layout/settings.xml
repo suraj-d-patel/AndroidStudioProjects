@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:text="HELLO WORLD"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtx"
+        android:layout_below="@+id/txtx"
+        android:layout_gravity="center"
+        android:layout_marginEnd="38dp"
+        android:layout_marginTop="52dp"
+        android:text="share"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnn"
+        android:layout_alignBottom="@+id/btnn"
+        android:layout_alignStart="@+id/txtx"
+        android:layout_marginStart="38dp"
+        android:text="get popup" />
+
+
+
+</RelativeLayout>

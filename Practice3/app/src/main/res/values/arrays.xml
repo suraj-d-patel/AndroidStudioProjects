@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="resource_icon">
+        <item>R.drawable/alert</item>
+        <item>R.drawable/dialer</item>
+        <item>R.drawable/email</item>
+        <item>R.drawable/info</item>
+        <item>R.drawable/map</item>
+
+    </array>
+
+</resources>

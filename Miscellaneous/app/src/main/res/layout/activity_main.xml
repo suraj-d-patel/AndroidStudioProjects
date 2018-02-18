@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlparent"
+    tools:context="com.vamediabox.suraj.miscellaneous.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+
+        android:id="@+id/rlheader">
+
+        <TextView
+            android:id="@+id/toggleiton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle it On "
+            android:textColor="@color/colorPrimary"
+            android:textSize="35dp" />
+
+        <Switch
+            android:id="@+id/switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/rlbld"
+        android:layout_below="@id/rlheader"
+        android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroup">
+    <LinearLayout
+        android:layout_width="match_parent"
+       android:id="@+id/llbld"
+
+
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RadioButton
+            android:id="@+id/breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+
+            android:text="Breakfast"
+            android:textSize="20dp" />
+
+
+        <RadioButton
+            android:id="@+id/lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="33dp"
+            android:text="Lunch"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+
+            android:text="Dinner"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    </RadioGroup>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlfood1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/rlbld"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:id="@+id/food1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="food1"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignTop="@+id/food1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtfood1"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="32dp"
+            android:textSize="27dp"
+            android:layout_marginRight="22dp"
+            android:text="₹9999"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlfood2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/rlfood1"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:id="@+id/food2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="food2"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtfood2"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="32dp"
+            android:textSize="27dp"
+            android:layout_marginRight="22dp"
+            android:text="₹9999"
+             />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlfood3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlfood2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:id="@+id/food3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="food3"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtfood3"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="32dp"
+            android:textSize="27dp"
+            android:layout_marginRight="22dp"
+            android:text="₹9999"
+             />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlfood4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlfood3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:id="@+id/food4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="food4"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtfood4"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="32dp"
+            android:textSize="27dp"
+
+            android:layout_marginRight="22dp"
+            android:text="₹9999"
+             />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlfood5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rlfood4"
+        android:layout_marginTop="20dp"
+        >
+
+        <CheckBox
+            android:id="@+id/food5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+
+            android:text="food5"
+            android:textSize="22dp" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/txtfood5"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="32dp"
+            android:textSize="27dp"
+            android:layout_marginRight="22dp"
+            android:text="₹9999"
+             />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/rlfood5"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/billing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="Proceed to Billling" />
+
+        <TextView
+            android:id="@+id/totalamount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@+id/billing"
+            android:layout_marginTop="25dp"
+            android:text="Total Amount: ₹9999"
+            android:textSize="40dp" />
+    </RelativeLayout>
+</RelativeLayout>
